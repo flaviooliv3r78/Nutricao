@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background: #4CAF50;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+.intro,
+.about,
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  background: #fff;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.intro img,
+.about img,
+.contact img {
+  max-width: 300px;
+  /* Tamanho máximo das imagens ajustado */
+  border-radius: 8px;
+}
+
+section h2 {
+  color: #4CAF50;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+
+
+img {
+  max-width: 100%;
+  /* Garante que as imagens não ultrapassem a largura do container */
+  height: auto;
+  /* Mantém a proporção da imagem */
+  border-radius: 8px;
+  /* Adiciona bordas arredondadas (opcional) */
+}
+
+.footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer ul li img {
+  margin-right: 0.5rem;
+  width: 24px;
+  height: 24px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
